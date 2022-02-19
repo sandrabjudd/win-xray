@@ -21,7 +21,7 @@ var getXrayCoreUrl = function(){
 		if(!tag || (tag=="latest")) return;;
 
 		return "https://github.com/SagerNet/v2ray-core/releases/download/" 
-			+ tag + "/Xray-windows-" +	(..process().isWow64() ? "64" : "32") + ".zip",tag	
+			+ tag + "/v2ray-windows-" +	(..process().isWow64() ? "64" : "32") + ".zip",tag	
 	});
 	form.close();
     
